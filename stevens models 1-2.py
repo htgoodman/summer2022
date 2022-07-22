@@ -38,9 +38,9 @@ epsilon_c = 1.0 #M_solar / pc^2
 
 def epsilon_HI(r): 
     if r <= r_b: 
-        epsilon_HI(r) = epsilon_0
+        return epsilon_0
     if r > r_b:
-        epsilon_HI(r) = epsilon_0 * math.exp
+        return epsilon_0 * math.exp
 
 
 # In[ ]:
